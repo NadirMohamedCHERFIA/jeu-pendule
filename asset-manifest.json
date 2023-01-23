@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/jeu-pendule/static/css/main.5c688ecd.css",
+    "main.css": "/jeu-pendule/static/css/main.7f20f614.css",
     "main.js": "/jeu-pendule/static/js/main.0b0f82bc.js",
     "static/media/liste.txt": "/jeu-pendule/static/media/liste.8dff8e479a3d00afab89.txt",
     "index.html": "/jeu-pendule/index.html",
-    "main.5c688ecd.css.map": "/jeu-pendule/static/css/main.5c688ecd.css.map",
+    "main.7f20f614.css.map": "/jeu-pendule/static/css/main.7f20f614.css.map",
     "main.0b0f82bc.js.map": "/jeu-pendule/static/js/main.0b0f82bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c688ecd.css",
+    "static/css/main.7f20f614.css",
     "static/js/main.0b0f82bc.js"
   ]
 }
