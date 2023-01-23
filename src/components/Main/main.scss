@@ -1,0 +1,92 @@
+.container{
+    margin-bottom: 1rem;
+    .blue{
+        color: blue;
+    }
+    .vert{
+        color: green;
+    }
+    .main{
+        margin-top: 5rem;
+        text-align: center;
+        .popup{
+        backdrop-filter: blur(10px);
+        position: fixed;
+        top: 5rem;
+        bottom: 0;
+        right: 0;
+        left: 0; 
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        animation: popup 1s ease;
+        display: none;
+        &.active{
+            display: block;
+        }
+        &.danger{
+            display: block;
+            .popup__main{
+                background-color: red;
+            }
+        }
+        .popup__main{
+            padding: 4rem;
+            background-color: rgb(8, 189, 8,0.4);
+            border-radius: .5rem;
+        }
+        }
+        .diff{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 1rem;
+        }
+        .try{
+            border: 1px solid var(--color-primary);
+            border-radius: .5rem;
+            padding: 1rem;
+            margin-top: 1rem;
+            .tries__container{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .try__input{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 1rem;
+            gap: 1rem;
+            .input{
+                position: relative;
+                // width: 100%;
+                input{
+                    height: 2rem;
+                    padding: .5rem;
+                    border-radius: .5rem;
+                    margin-left: 8rem;
+                    width: 10rem;
+                }
+                select{
+                    height: 100%;
+                    padding: .5rem;
+                    background-color: var(--color-light);
+                    // color: white;
+                    border-radius: .5rem;
+                }
+            }
+        }
+    }
+}
+@keyframes popup{
+    from{
+        scale: 0;
+    }
+    to{
+        scale: 1;
+    }
+}
