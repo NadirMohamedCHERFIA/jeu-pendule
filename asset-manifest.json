@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/NadieMohamedCHERFIA.github.io/jeu-pendule/static/css/main.2dd02481.css",
-    "main.js": "/NadieMohamedCHERFIA.github.io/jeu-pendule/static/js/main.f1114fd6.js",
-    "static/media/liste.txt": "/NadieMohamedCHERFIA.github.io/jeu-pendule/static/media/liste.8dff8e479a3d00afab89.txt",
-    "index.html": "/NadieMohamedCHERFIA.github.io/jeu-pendule/index.html",
-    "main.2dd02481.css.map": "/NadieMohamedCHERFIA.github.io/jeu-pendule/static/css/main.2dd02481.css.map",
-    "main.f1114fd6.js.map": "/NadieMohamedCHERFIA.github.io/jeu-pendule/static/js/main.f1114fd6.js.map"
+    "main.css": "/jeu-pendule/static/css/main.2dd02481.css",
+    "main.js": "/jeu-pendule/static/js/main.0b0f82bc.js",
+    "static/media/liste.txt": "/jeu-pendule/static/media/liste.8dff8e479a3d00afab89.txt",
+    "index.html": "/jeu-pendule/index.html",
+    "main.2dd02481.css.map": "/jeu-pendule/static/css/main.2dd02481.css.map",
+    "main.0b0f82bc.js.map": "/jeu-pendule/static/js/main.0b0f82bc.js.map"
   },
   "entrypoints": [
     "static/css/main.2dd02481.css",
-    "static/js/main.f1114fd6.js"
+    "static/js/main.0b0f82bc.js"
   ]
 }
