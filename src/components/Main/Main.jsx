@@ -2,6 +2,7 @@ import React,{useEffect, useState} from 'react'
 import './main.css'
 import data from './../../data/liste.txt'
 import Axios from 'axios'
+import Img from './../../assets/37-378577_pendulum-clipart-school-pendulum.png'
 const adding = (array,index,letter)=>{
     return array.substring(0,index) + letter + array.substring(index+1,array.length)
 }
@@ -209,7 +210,7 @@ const Main = () => {
     return (
     <div className='container'>
         <div className="main">
-                {newGame ? "Select difficulty level" : null}
+                {newGame ? <div className='select__diff'>"Select difficulty level"</div>: null}
             <div className="diff">
                 {diffOptions.map((d)=>
                     <div className={d.option===diff.option ? "btn btn-primary" : "btn"} key={d.id} onClick={()=>{handleClick(d.id)}}>{d.option}</div>
@@ -224,7 +225,7 @@ const Main = () => {
                     Tries Left : {numberOfTries}
                     </div>
                 </div>
-                : "Press New Game and chose difficulty level to start"}<br></br>
+                : <div className='before'><div>"Press New Game and chose difficulty level to start"</div><img src={Img} alt="" /> </div>}<br></br>
                     {
                         !newGame ? items : null
                     }

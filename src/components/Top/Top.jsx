@@ -38,7 +38,7 @@ setManage({Home:false,Forcast:false,About:false,Contacts:true})
     <div className='container__header' id='top'>
             <div className={burger ? "header disable":"header"} >
                     <div className="name">
-                        Jeu de pendule
+                        Motus
                     </div>
             <div className="items">
                 <a href='#top'><div onClick={handleHomeClick} className={manage.Home ?'active':''}>Home</div></a>

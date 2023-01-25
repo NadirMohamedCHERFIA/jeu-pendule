@@ -1,3 +1,7 @@
 .about{
     z-index: -300;
+    &>*{
+        
+        text-align: center;
+    }
 }
