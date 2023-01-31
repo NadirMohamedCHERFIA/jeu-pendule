@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jeu-pendule/static/css/main.ca61623e.css",
+    "main.css": "/jeu-pendule/static/css/main.d26a0bac.css",
     "main.js": "/jeu-pendule/static/js/main.27ed4186.js",
     "static/media/liste.txt": "/jeu-pendule/static/media/liste.8dff8e479a3d00afab89.txt",
     "static/media/37-378577_pendulum-clipart-school-pendulum.png": "/jeu-pendule/static/media/37-378577_pendulum-clipart-school-pendulum.10b535552edb4f2f8cc5.png",
     "index.html": "/jeu-pendule/index.html",
-    "main.ca61623e.css.map": "/jeu-pendule/static/css/main.ca61623e.css.map",
+    "main.d26a0bac.css.map": "/jeu-pendule/static/css/main.d26a0bac.css.map",
     "main.27ed4186.js.map": "/jeu-pendule/static/js/main.27ed4186.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca61623e.css",
+    "static/css/main.d26a0bac.css",
     "static/js/main.27ed4186.js"
   ]
 }
