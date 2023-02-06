@@ -1,6 +1,4 @@
-.about {
+.container .about {
   z-index: -300;
-}
-.about > * {
   text-align: center;
 }/*# sourceMappingURL=about.css.map */
